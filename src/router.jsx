@@ -1,6 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "./layouts/Layout";
 import Home from "./views/Home";
+import Experience from "./views/Experience"
+import Portfolio from "./views/Portfolio"
 
 export const router = createBrowserRouter([
     {
@@ -10,8 +12,16 @@ export const router = createBrowserRouter([
             {
                 index: true,
                 element: <Home />
-            }
-        ]      
+            },
+            {
+                path: '/experience',
+                element: <Experience />
+            },
+            {
+                path: '/portfolio',
+                element: <Portfolio />
+            },
+        ]
 
     }
 ])
