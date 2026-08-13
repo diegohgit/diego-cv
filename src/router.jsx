@@ -24,4 +24,8 @@ export const router = createBrowserRouter([
         ]
 
     }
-])
+], {
+    // This is useful so this react project can be used as
+    // www.example.com/class-scheduler-daniel
+    basename: "/class-scheduler-daniel" 
+})
