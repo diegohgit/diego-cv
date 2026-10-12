@@ -29,8 +29,7 @@ export default function Sidebar() {
 
   return (
   <div className="h-14 w-full flex
-                  z-10 fixed
-                  bg-gray-700">
+                  z-10 fixed bg-dark">
     <div className="flex mx-auto items-center">
       {
         options.map(option => (
@@ -38,16 +37,16 @@ export default function Sidebar() {
             key={option.label}
             to={option.route}
             className="text-lg text-center font-bold 
-                    text-white cursor-pointer truncate"
+                    text-light cursor-pointer truncate"
             onClick={() => {setPath(option.route)}}
             >
             <div className="h-14 items-center w-full 
-                            mr-4 hover:bg-yellow-500 cursor-pointer">
+                            mr-4 bg-midtone-hover cursor-pointer">
               <div className="h-12 flex items-center">
                 <p className="text-center w-full">{option.label}</p>
               </div>
               {/* Mark active option*/}
-              <div className={`${path === option.route ? "bg-yellow-500" : ""}
+              <div className={`${path === option.route ? "bg-midtone" : ""}
                               h-2 w-full `}></div>
             </div>
           </Link>

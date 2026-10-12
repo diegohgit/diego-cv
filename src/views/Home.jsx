@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <>
         {/* Diego */}
-        <div className="mt-14 justify-center items-center
-                        text-gray-700">
+        <div className="h-5/10 mt-14 justify-center 
+                        items-center text-dark">
             <div className="flex w-fit mx-auto items-center">
               <img className="w-50"
                    src="../img/circulo_cv.png"
@@ -29,28 +29,30 @@ export default function Home() {
         </div>
 
       {/* About Me & Contact Info */}
-      <div className="flex mx-auto justify-center absolute bottom-0 
-                      bg-gray-700 text-white">
+      <div className="h-5/10 flex absolute bottom-0 
+                      bg-dark text-light">
 
         {/* About Me */}
-        <div className="w-6/12 mr-6 mb-4">
-          <SectionTitle title="ABOUT ME" />
+        <div className="w-8/12 mb-4 ">
+          <div className="w-10/12 mx-auto">
+            <SectionTitle title="ABOUT ME" />
 
-          <p className="text-xl">I'm 33 years old, I was born in México and I have 10 years of experience in TIC's. 
-            <br />
-            <br />
-            I specialize in web development with React and Laravel but I'm willing to 
-            learn new frameworks and technologies to wide my knowledge.
-            <br />
-            <br />
-            I like to learn new things but also I like to share my knowledge and help others when its needed.
+            <p className="text-xl">I'm 33 years old, I was born in México and I have 10 years of experience in TIC's. 
+              <br />
+              <br />
+              I specialize in web development with React and Laravel but I'm willing to 
+              learn new frameworks and technologies to wide my knowledge.
+              <br />
+              <br />
+              I like to learn new things but also I like to share my knowledge and help others when its needed.
             </p>
+          </div>
         </div>
 
 
 
         {/* Contact Info */}
-        <div className="w-fit ">
+        <div className="w-fit">
 
           <SectionTitle title="GENERAL INFO" />
           <div className="*:flex *:gap-2 *:mt-2">

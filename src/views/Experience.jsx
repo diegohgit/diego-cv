@@ -5,7 +5,7 @@ export default function Experience() {
     <>
       <div className="mt-14 flex">
         {/* Jobs list */}
-        <div className="w-3/4 text-gray-700 ">
+        <div className="w-3/4 text-dark">
 
           <SectionTitle title="EXPERIENCE" />
 
@@ -19,8 +19,8 @@ export default function Experience() {
 
             <ul className="list-disc p-5">
               <li>Web aplications development (fullstack).</li>
-              <li>Creation of stored procedures and views in MySql.</li>
-              <li>Creation of E-R diagrams in MySql.</li>
+              <li>Creation of stored procedures and views in MySQL.</li>
+              <li>Creation of E-R diagrams in MySQL Workbench.</li>
               <li>Use of Android Studio.</li>
             </ul>
           </div>
@@ -36,7 +36,7 @@ export default function Experience() {
 
             <ul className="list-disc p-5">
               <li>Design and development of the company's website
-                  copamexcorrugados.com (Managed until 2023)
+                  copamexcorrugados.com (managed until 2023).
               </li>
               <li>Design and development of web applications (fullstack).</li>
               <li>Technical support of ERP Datasul.</li>
@@ -77,11 +77,12 @@ export default function Experience() {
         </div>
 
         {/* Skills */}
-        <div className="w-1/4 h-full right-0 text-white fixed bg-gray-700">
+        <div className="w-1/4 h-full right-0 text-light fixed bg-dark">
 
           <SectionTitle title="SKILLS" />
           <ul className="ml-6 text-xl list-disc p-5">
             <li>Fullstack</li>
+            <li>MySQL</li>
             <li>PHP</li>
             <li>Laravel</li>
             <li>CodeIgniter</li>
@@ -91,11 +92,7 @@ export default function Experience() {
             <li>JQuery</li>
             <li>CSS 3</li>
             <li>Tailwind CSS</li>
-            <li>HTML 5</li>
-            <li>MySql</li>
           </ul>
-
-
         </div>
       </div>
     </>
