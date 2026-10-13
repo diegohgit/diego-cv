@@ -3,89 +3,98 @@ import SectionTitle from "../components/SectionTitle"
 export default function Home() {
   return (
     <>
-        {/* Diego */}
-        <div className="h-5/10 mt-14 justify-center 
-                        items-center text-dark">
-            <div className="flex w-fit mx-auto items-center">
-              <img className="w-50"
-                   src="../img/circulo_cv.png"
-                   alt="Profile"/>
+      {/* TOP */}
+      <div className="sticky top-0 flex
+                      h-screen md:h-6/12 items-center
+                      justify-center">
+        <div className="md:flex mt-14 mx-auto
+                        items-center">
+          <img className="mx-auto w-50"
+                src="../img/circulo_cv.png"
+                alt="Profile"/>
 
-                <div className="text-center  *:mt-2">
-                  <h1 className="font-mono text-5xl
-                                  align-middle ">
-                    Diego Hernández Hernández
-                  </h1>
-                  <span className="text-3xl ">Web Developer</span>
+          <div className="text-center text-dark *:mt-2">
+            <h1 className="font-mono text-5xl">
+              Diego Hernández Hernández
+            </h1>
+            <span className="text-3xl">Web Developer</span>
 
-                  <div className="flex w-fit mx-auto gap-1 ">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="m9 13.5 3 3m0 0 3-3m-3 3v-6m1.06-4.19-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z" />
-                    </svg>
-                    <span>Download this CV in PDF.</span>
-                  </div>
-                </div>
+            <div className="flex w-fit mx-auto gap-1 ">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m9 13.5 3 3m0 0 3-3m-3 3v-6m1.06-4.19-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z" />
+              </svg>
+              <span>Download this CV in PDF.</span>
             </div>
-        </div>
-
-      {/* About Me & Contact Info */}
-      <div className="h-5/10 flex absolute bottom-0 
-                      bg-dark text-light">
-
-        {/* About Me */}
-        <div className="w-8/12 mb-4 ">
-          <div className="w-10/12 mx-auto">
-            <SectionTitle title="ABOUT ME" />
-
-            <p className="text-xl">I'm 33 years old, I was born in México and I have 10 years of experience in TIC's. 
-              <br />
-              <br />
-              I specialize in web development with React and Laravel but I'm willing to 
-              learn new frameworks and technologies to wide my knowledge.
-              <br />
-              <br />
-              I like to learn new things but also I like to share my knowledge and help others when its needed.
-            </p>
           </div>
         </div>
+      </div>
 
 
 
-        {/* Contact Info */}
-        <div className="w-fit">
+      {/* BOTTOM */}
+      <div className="relative z-10 bg-dark 
+                      pb-14 pt-8 md:pt-0
+                      shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.3)]">
+        <div className="md:flex text-light">
 
-          <SectionTitle title="GENERAL INFO" />
-          <div className="*:flex *:gap-2 *:mt-2">
-            <div className="">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
-              </svg>
-              <span>6diegoh@gmail.com</span>
-            </div>
+          {/* About Me */}
+          <div className="md:w-8/12 mb-4 ">
+            <div className="w-10/12 mx-auto">
 
-            <div className="">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-              </svg>
-              <span>Guadalupe, Nuevo León, México</span>
-            </div>
+              <SectionTitle title="ABOUT ME"/>
 
-            <div className="">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
-              </svg>
-              <div >
-                <span className="font-bold">Instituto tecnológico de Nuevo León</span>
+              <p className="text-xl">I'm 33 years old, I was born in México and I have 10 years of experience in TIC's. 
                 <br />
-                <span>- Computer Systems Engineering</span>
                 <br />
-                <span>(From 2011 to 2016)</span>
+                I specialize in web development with React and Laravel but I'm willing to 
+                learn new frameworks and technologies to wide my knowledge.
+                <br />
+                <br />
+                I like to learn new things but also I like to share my knowledge and help others when its needed.
+              </p>
+            </div>
+          </div>
+
+          {/* Contact Info */}
+          <div className="w-[310px] mx-auto">
+
+            <SectionTitle title="GENERAL INFO" />
+            <div className="*:flex *:gap-2 *:mt-2">
+              <div>
+                {/*Mail icon*/}
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                </svg>
+                <span>6diegoh@gmail.com</span>
+              </div>
+
+              <div>
+                {/*Location icon*/}
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                </svg>
+                <span>Guadalupe, Nuevo León, México</span>
+              </div>
+
+              <div>
+                {/*Graduation cap icon*/}
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                </svg>
+                <div >
+                  <span className="font-bold">Instituto tecnológico de Nuevo León</span>
+                  <br />
+                  <span>- Computer Systems Engineering</span>
+                  <br />
+                  <span>(From 2011 to 2016)</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
     </>
   )
 }
