@@ -2,14 +2,14 @@
 
 .bg-light{
     @apply 
-    /*bg-gray-100*/
-    bg-amber-100
+    bg-mist-200
+    /*bg-amber-100*/
 }
 
 .text-light{
     @apply
-    /*text-gray-100*/
-    text-amber-100
+    text-mist-200
+    /*text-amber-100*/
 }
 
                     /* LIGHT */
