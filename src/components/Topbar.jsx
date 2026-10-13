@@ -29,7 +29,8 @@ export default function Sidebar() {
 
   return (
   <div className="h-14 w-full flex
-                  z-10 fixed bg-dark">
+                  z-20 fixed bg-dark
+                  shadow-[0_4px_6px_1px_rgba(0,0,0,0.3)]">
     <div className="flex mx-auto items-center">
       {
         options.map(option => (
@@ -37,9 +38,9 @@ export default function Sidebar() {
             key={option.label}
             to={option.route}
             className="text-lg text-center font-bold 
-                    text-light cursor-pointer truncate"
+                       text-light cursor-pointer truncate"
             onClick={() => {setPath(option.route)}}
-            >
+          >
             <div className="h-14 items-center w-full 
                             mr-4 bg-midtone-hover cursor-pointer">
               <div className="h-12 flex items-center">
