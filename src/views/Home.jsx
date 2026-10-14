@@ -38,19 +38,22 @@ export default function Home() {
         <div className="md:flex text-light">
 
           {/* About Me */}
-          <div className="md:w-8/12 mb-4 ">
-            <div className="w-10/12 mx-auto">
+          <div className="md:w-8/12 pb-10 md:pb-0 ">
+            <div className="w-full md:w-10/12 px-2
+                            md:mx-auto text-xl text-center">
 
               <SectionTitle title="ABOUT ME"/>
 
-              <p className="text-xl">I'm 33 years old, I was born in México and I have 10 years of experience in TIC's. 
-                <br />
-                <br />
-                I specialize in web development with React and Laravel but I'm willing to 
-                learn new frameworks and technologies to wide my knowledge.
-                <br />
-                <br />
-                I like to learn new things but also I like to share my knowledge and help others when its needed.
+              <p>
+                I'm 33 years old, I was born in Mexico and I have 10 years of experience in IT. 
+              </p><br />
+              <p>
+                I specialize in web development using React and Laravel but I'm always willing to 
+                learn new frameworks and technologies to expand my knowledge.
+              </p><br />
+              <p>
+                I enjoy learning new things, but I also like to share my knowledge and help others
+                when its needed.
               </p>
             </div>
           </div>
