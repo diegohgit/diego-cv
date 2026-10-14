@@ -1,21 +1,21 @@
 import SectionTitle from "../components/SectionTitle"
 
-const itemContainer = 'm-6 text-xl w-10/12 md:w-6/10 mx-auto'
-const jobCompany    = 'flex gap-6 text-2xl'
+const itemContainer = 'md:w-6/10 md:text-xl mt-6 mx-auto'
+const jobCompany    = 'flex gap-6 text-xl md:text-2xl'
 
 export default function Experience() {
   return (
     <>
       <div className="mt-14 flex flex-col md:flex-row">
         {/* Jobs list */}
-        <div className="md:w-3/4 text-dark order-2
-                        md:order-1">
+        <div className="md:w-3/4 px-2 text-dark order-2
+                        md:order-1 pb-8">
 
           <SectionTitle title="EXPERIENCE"/>
 
           <div className={itemContainer}>
             <div className={jobCompany}>
-              <h3 className=" font-bold">Web Developer</h3>
+              <h3 className="font-bold">Web Developer</h3>
               <span className="italic">2016-2017</span>
             </div>
 
@@ -32,7 +32,7 @@ export default function Experience() {
 
           <div className={itemContainer}>
             <div className={jobCompany}>
-              <h3 className=" font-bold">Systems Analyst</h3>
+              <h3 className="font-bold">Systems Analyst</h3>
               <span className="italic">2017-2023</span>
             </div>
 
@@ -52,7 +52,7 @@ export default function Experience() {
 
           <div className={itemContainer}>
             <div className={jobCompany}>
-              <h3 className=" font-bold">Web Developer</h3>
+              <h3 className="font-bold">Web Developer</h3>
               <span className="italic">2024-2025</span>
             </div>
             <span>Plexonet | Monterrey, NL, México</span>
@@ -67,7 +67,7 @@ export default function Experience() {
 
           <div className={itemContainer}>
             <div className={jobCompany}>
-              <h3 className=" font-bold">Web Developer</h3>
+              <h3 className="font-bold">Web Developer</h3>
               <span className="italic">2026</span>
             </div>
             <span>Independient</span>
