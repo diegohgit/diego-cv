@@ -36,7 +36,7 @@ export default function Portfolio() {
           </p>
             <a href='/class-scheduler-demo/login' target='_blank'>
               <img className="md:w-1/2 my-10 mx-auto" 
-                   src="../img/scheduler_sky-blue-test_1.png"
+                   src="../img/scheduler_sky-blue.png"
                    alt="ClassScheduler logo"/>
             </a>
         </div>
