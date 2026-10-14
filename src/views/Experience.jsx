@@ -1,16 +1,20 @@
 import SectionTitle from "../components/SectionTitle"
 
+const itemContainer = 'm-6 text-xl w-10/12 md:w-6/10 mx-auto'
+const jobCompany    = 'flex gap-6 text-2xl'
+
 export default function Experience() {
   return (
     <>
-      <div className="mt-14 flex">
+      <div className="mt-14 flex flex-col md:flex-row">
         {/* Jobs list */}
-        <div className="w-3/4 text-dark">
+        <div className="md:w-3/4 text-dark order-2
+                        md:order-1">
 
-          <SectionTitle title="EXPERIENCE" />
+          <SectionTitle title="EXPERIENCE"/>
 
-          <div className="m-6 text-xl  w-140 mx-auto">
-            <div className="flex gap-6 text-2xl ">
+          <div className={itemContainer}>
+            <div className={jobCompany}>
               <h3 className=" font-bold">Web Developer</h3>
               <span className="italic">2016-2017</span>
             </div>
@@ -26,8 +30,8 @@ export default function Experience() {
           </div>
 
 
-          <div className="m-6 text-xl  w-140 mx-auto">
-            <div className="flex gap-6 text-2xl ">
+          <div className={itemContainer}>
+            <div className={jobCompany}>
               <h3 className=" font-bold">Systems Analyst</h3>
               <span className="italic">2017-2023</span>
             </div>
@@ -46,8 +50,8 @@ export default function Experience() {
           </div>
 
 
-          <div className="m-6 text-xl  w-140 mx-auto">
-            <div className="flex gap-6 text-2xl ">
+          <div className={itemContainer}>
+            <div className={jobCompany}>
               <h3 className=" font-bold">Web Developer</h3>
               <span className="italic">2024-2025</span>
             </div>
@@ -55,14 +59,14 @@ export default function Experience() {
 
             <ul className="list-disc p-5">
               <li>Maintainance to laboratory software MedicaTI.</li>
-              <li>Development of new modules and features (fullstack).</li>
-              <li>Development of reports.</li>
+              <li>Development of new modules, reports and features (fullstack).</li>
+              <li>Technical support.</li>
               <li>Development of parsers to interface laboratory equipment results.</li>
             </ul>
           </div>
 
-          <div className="m-6 text-xl  w-140 mx-auto">
-            <div className="flex gap-6 text-2xl ">
+          <div className={itemContainer}>
+            <div className={jobCompany}>
               <h3 className=" font-bold">Web Developer</h3>
               <span className="italic">2026</span>
             </div>
@@ -77,10 +81,14 @@ export default function Experience() {
         </div>
 
         {/* Skills */}
-        <div className="w-1/4 h-full right-0 text-light fixed bg-dark">
+        <div className="md:w-1/4 h-full right-0 
+                        text-light md:fixed bg-dark
+                        order-1 md:order-2
+                        shadow-[0_4px_6px_1px_rgba(0,0,0,0.3)]">
 
           <SectionTitle title="SKILLS" />
-          <ul className="ml-6 text-xl list-disc p-5">
+          <ul className="columns-2 md:columns-1 gap-x-8 
+                         ml-8 text-xl list-disc p-5">
             <li>Fullstack</li>
             <li>MySQL</li>
             <li>PHP</li>
