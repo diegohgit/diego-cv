@@ -1,7 +1,8 @@
 import SectionTitle from "../components/SectionTitle"
 
-const itemContainer = 'md:w-6/10 md:text-xl mt-6 mx-auto'
+const itemContainer = 'md:w-6/10 md:text-xl mt-8 mx-auto'
 const jobCompany    = 'flex gap-6 text-xl md:text-2xl'
+const ulElements    = 'list-disc mt-2 pl-5'
 
 export default function Experience() {
   return (
@@ -21,7 +22,7 @@ export default function Experience() {
 
             <span>MovIT Solutions | Monterrey, NL, México</span>
 
-            <ul className="list-disc p-5">
+            <ul className={ulElements}>
               <li>Web aplications development (fullstack).</li>
               <li>Creation of stored procedures and views in MySQL.</li>
               <li>Creation of E-R diagrams in MySQL Workbench.</li>
@@ -38,7 +39,7 @@ export default function Experience() {
 
             <span>Copamex Corrugados | San Nicolás de los Garza, NL, México</span>
 
-            <ul className="list-disc p-5">
+            <ul className={ulElements}>
               <li>Design and development of the company's website
                   copamexcorrugados.com (managed until 2023).
               </li>
@@ -57,8 +58,8 @@ export default function Experience() {
             </div>
             <span>Plexonet | Monterrey, NL, México</span>
 
-            <ul className="list-disc p-5">
-              <li>Maintainance to laboratory software MedicaTI.</li>
+            <ul className={ulElements}>
+              <li>Maintainance to a laboratory software named MedicaTI.</li>
               <li>Development of new modules, reports and features (fullstack).</li>
               <li>Technical support.</li>
               <li>Development of parsers to interface laboratory equipment results.</li>
@@ -72,7 +73,7 @@ export default function Experience() {
             </div>
             <span>Independient</span>
 
-            <ul className="list-disc p-5">
+            <ul className={ulElements}>
               <li>Design and development of ClassScheduler (fullstack).</li>
             </ul>
           </div>
