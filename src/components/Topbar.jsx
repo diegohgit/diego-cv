@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 
 export default function Sidebar() {
 
-  const location = useLocation();
+
 
   //Routes and options shown in toolbar.
   const options = [
@@ -10,6 +10,10 @@ export default function Sidebar() {
             {label:"Experience", route:"/experience"},
             {label:"Portfolio",  route:"/portfolio"},
           ];
+
+
+
+  const location = useLocation();
 
 
 
@@ -25,7 +29,6 @@ export default function Sidebar() {
             to={option.route}
             className="text-lg text-center font-bold 
                        text-light cursor-pointer truncate"
-            onClick={() => {setPath(option.route)}}
           >
             <div className="h-14 items-center w-full 
                             mr-4 bg-midtone-hover cursor-pointer">
@@ -35,7 +38,7 @@ export default function Sidebar() {
               </div>
 
               {/*Mark active option*/}
-              <div className={`${location.pathname === option.route ? "bg-midtone" : ""}
+               <div className={`${location.pathname === option.route ? "bg-midtone" : ""}
                               h-2 w-full `}></div>
             </div>
           </Link>
