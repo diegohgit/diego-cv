@@ -1,8 +1,8 @@
-import { useEffect, useState, useRef } from "react";
-import { Link } from "react-router-dom"; 
+import { Link, useLocation } from "react-router-dom"; 
 
 export default function Sidebar() {
 
+  const location = useLocation();
 
   //Routes and options shown in toolbar.
   const options = [
@@ -10,20 +10,6 @@ export default function Sidebar() {
             {label:"Experience", route:"/experience"},
             {label:"Portfolio",  route:"/portfolio"},
           ];
-
-
-
-  const [path, setPath] = useState('');
-
-  //Mark active option when the component is mounted in case the user 
-  // entered directly from a link without doing a click on the option.
-  useEffect(() => {
-    //Set the 3th segment from current url to the path state.
-    const ref = window.location.href
-    const segment = ref.split('/')[3];
-    setPath("/"+segment);
-  }, [])
-
 
 
 
@@ -43,11 +29,13 @@ export default function Sidebar() {
           >
             <div className="h-14 items-center w-full 
                             mr-4 bg-midtone-hover cursor-pointer">
+              {/*Module name*/}
               <div className="h-12 flex items-center">
                 <p className="text-center w-full">{option.label}</p>
               </div>
-              {/* Mark active option*/}
-              <div className={`${path === option.route ? "bg-midtone" : ""}
+
+              {/*Mark active option*/}
+              <div className={`${location.pathname === option.route ? "bg-midtone" : ""}
                               h-2 w-full `}></div>
             </div>
           </Link>
