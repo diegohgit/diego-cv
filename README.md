@@ -6,7 +6,7 @@ Just a frontend project built with React + Vite to show my resume in a dinamic w
 
 It features a mobile-responsive design built with Tailwind CSS.
 
-See it live at: <a href='www.diegomysite.com'><b>diegomysite.com</b></a>
+See it live at: <a href="https://diegomysite.com" target="_blank"><b>diegomysite.com</b></a>
 
 
 
