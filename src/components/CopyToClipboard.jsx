@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-function CopyToClipboard({text}){
+function CopyToClipboard({text, size}){
   const [copied, setCopied] = useState(false);
 
   const handleCopy = async() => {
@@ -22,14 +22,13 @@ function CopyToClipboard({text}){
 
   return (
     <button onClick={handleCopy}
-            className="ml-2 relative size-6
-                       cursor-pointer"
+            className={`size-${size} relative cursor-pointer`}
             title="Copy to clipboard" 
             >
       {/*'Checked' icon*/}
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
             strokeWidth={1.8}
-            className={`size-6 absolute inset-0
+            className={`size-${size} absolute inset-0
                         transition-all duration-500
                         ${copied  ? 'opacity-100 blur-0 scale-100'
                                   : 'opacity-0 blur-md scale-90'}
@@ -41,7 +40,7 @@ function CopyToClipboard({text}){
       {/*'Copy to clipboard' icon*/}
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" 
             strokeWidth={1.5} stroke="currentColor"
-            className={`size-6 absolute inset-0
+            className={`size-${size} absolute inset-0
                         transition-all duration-500
                         ${copied  ? 'opacity-0 blur-md scale-90'
                                   : 'opacity-100 blur-0 scale-100'}

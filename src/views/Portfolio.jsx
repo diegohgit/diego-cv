@@ -64,9 +64,11 @@ export default function Portfolio() {
                 <span className="font-bold mr-2">
                   - Demo user:
                 </span>
-                <div className="flex items-center">
+                <div className="flex items-center gap-2">
                   demo-user@diegomysite.com
-                  <CopyToClipboard text='demo-user@diegomysite.com'/>
+                  <CopyToClipboard  text='demo-user@diegomysite.com'
+                                    size='6'
+                  />
                 </div>
               </div>
 
@@ -74,9 +76,11 @@ export default function Portfolio() {
                 <span className="font-bold mr-2">
                   - Password:
                 </span>
-                <div className="flex items-center">
+                <div className="flex items-center gap-2">
                   Cl4ss$chedul3r
-                  <CopyToClipboard text='Cl4ss$chedul3r'/>
+                  <CopyToClipboard  text='Cl4ss$chedul3r'
+                                    size='6'
+                  />
                 </div>
               </div>
 
