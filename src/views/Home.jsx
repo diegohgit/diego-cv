@@ -23,9 +23,9 @@ export default function Home() {
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="m9 13.5 3 3m0 0 3-3m-3 3v-6m1.06-4.19-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z" />
               </svg>
-              <a  href="/CV Resume - English.pdf"
-                  download  
-                  className="hover:underline"
+              <a  href="/Diego Hernández Hernández - Resume.pdf"
+                  download
+                  className="underline"
               >
                 <span>Download this resume in PDF.</span>
               </a>
@@ -36,13 +36,13 @@ export default function Home() {
 
 
 
-      {/* BOTTOM */}
+    {/* BOTTOM */}
       <div className="relative z-10 bg-dark 
                       pb-14 pt-8 md:pt-0
                       shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.3)]">
         <div className="md:flex text-light">
 
-          {/* About Me */}
+        {/* About Me */}
           <div className="md:w-8/12 pb-10 md:pb-0 ">
             <div className="w-full md:w-10/12 px-2
                             md:mx-auto text-xl text-center">
@@ -50,7 +50,7 @@ export default function Home() {
               <SectionTitle title="ABOUT ME"/>
 
               <p>
-                I'm 33 years old, I was born in Mexico and I have 10 years of experience in IT. 
+                I'm 34 years old, I was born in Mexico and I have 10 years of experience in IT. 
               </p><br />
               <p>
                 I specialize in web development using React and Laravel but I'm always willing to 
@@ -88,7 +88,7 @@ export default function Home() {
                   />
                 </svg>
                 <a href="https://github.com/diegohgit" target="_blank">
-                  <span className="hover:underline">github.com/<b>diegohgit</b></span>
+                  <span className="underline">github.com/<b>diegohgit</b></span>
                 </a>
               </div>
 
