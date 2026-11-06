@@ -74,7 +74,7 @@ export default function Experience() {
             <span>Independient</span>
 
             <ul className={ulElements}>
-              <li>Design and development of ClassScheduler (fullstack).</li>
+              <li>Design and development of Class Scheduler (Full Stack).</li>
             </ul>
           </div>
 
@@ -89,8 +89,9 @@ export default function Experience() {
 
           <SectionTitle title="SKILLS" />
           <ul className="columns-2 md:columns-1 gap-x-8 
-                         ml-8 text-xl list-disc p-5">
-            <li>Fullstack</li>
+                         ml-8 text-xl p-5
+                         list-disc">
+            <li>Full Stack</li>
             <li>MySQL</li>
             <li>PHP</li>
             <li>Laravel</li>
