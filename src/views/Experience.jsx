@@ -23,7 +23,7 @@ export default function Experience() {
             <span>MovIT Solutions | Monterrey, NL, México</span>
 
             <ul className={ulElements}>
-              <li>Web aplications development (fullstack).</li>
+              <li>Web aplications development (Full Stack).</li>
               <li>Creation of stored procedures and views in MySQL.</li>
               <li>Creation of E-R diagrams in MySQL Workbench.</li>
               <li>Use of Android Studio.</li>
@@ -43,7 +43,7 @@ export default function Experience() {
               <li>Design and development of the company's website
                   copamexcorrugados.com (managed until 2023).
               </li>
-              <li>Design and development of web applications (fullstack).</li>
+              <li>Design and development of web applications (Full Stack).</li>
               <li>Technical support of ERP Datasul.</li>
               <li>Maintainance to computer equipment and printers.</li>
               <li>Support in network administation, servers and IP cameras.</li>
@@ -60,7 +60,7 @@ export default function Experience() {
 
             <ul className={ulElements}>
               <li>Maintainance to a laboratory software named MedicaTI.</li>
-              <li>Development of new modules, reports and features (fullstack).</li>
+              <li>Development of new modules, reports and features (Full Stack).</li>
               <li>Technical support.</li>
               <li>Development of parsers to interface laboratory equipment results.</li>
             </ul>
