@@ -103,9 +103,7 @@ export default function Home() {
                 <div className="group flex gap-2">
                     6diegoh@gmail.com
                   <div className="hidden group-hover:inline-flex">
-                    <CopyToClipboard  text='6diegoh@gmail.com'
-                                      size='5'
-                    />
+                    <CopyToClipboard text='6diegoh@gmail.com' />
                   </div>
                 </div>
               </div>

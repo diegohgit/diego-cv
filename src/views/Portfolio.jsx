@@ -66,9 +66,7 @@ export default function Portfolio() {
                 </span>
                 <div className="flex items-center gap-2">
                   demo-user@diegomysite.com
-                  <CopyToClipboard  text='demo-user@diegomysite.com'
-                                    size='6'
-                  />
+                  <CopyToClipboard text='demo-user@diegomysite.com' />
                 </div>
               </div>
 
@@ -78,9 +76,7 @@ export default function Portfolio() {
                 </span>
                 <div className="flex items-center gap-2">
                   Cl4ss$chedul3r
-                  <CopyToClipboard  text='Cl4ss$chedul3r'
-                                    size='6'
-                  />
+                  <CopyToClipboard text='Cl4ss$chedul3r' />
                 </div>
               </div>
 
