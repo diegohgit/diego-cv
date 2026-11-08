@@ -20,7 +20,15 @@ export default function Experience() {
               <span className="italic">2016-2017</span>
             </div>
 
-            <span>MovIT Solutions | Monterrey, NL, México</span>
+            <span>
+              <a  href="https://www.movit-sg.com"
+                  target="_blank"
+                  className="mr-2 underline"
+              >
+                Movit Group
+              </a>
+              | Monterrey, NL, México
+            </span>
 
             <ul className={ulElements}>
               <li>Web aplications development (Full Stack).</li>
@@ -37,7 +45,15 @@ export default function Experience() {
               <span className="italic">2017-2023</span>
             </div>
 
-            <span>Copamex Corrugados | San Nicolás de los Garza, NL, México</span>
+            <span>
+              <a  href="https://www.copamexcorrugados.com"
+                  target="_blank"
+                  className="mr-2 underline"
+              >
+                Copamex Corrugados
+              </a>
+              | San Nicolás de los Garza, NL, México
+            </span>
 
             <ul className={ulElements}>
               <li>Design and development of the company's website
@@ -56,7 +72,15 @@ export default function Experience() {
               <h3 className="font-bold">Web Developer</h3>
               <span className="italic">2024-2025</span>
             </div>
-            <span>Plexonet | Monterrey, NL, México</span>
+            <span>
+              <a  href="https://plexonet.com/"
+                  target="_blank"
+                  className="mr-2 underline"
+              >
+                Plexonet
+              </a>
+              | Monterrey, NL, México
+            </span>
 
             <ul className={ulElements}>
               <li>Maintainance to a laboratory software named MedicaTI.</li>
@@ -77,8 +101,6 @@ export default function Experience() {
               <li>Design and development of Class Scheduler (Full Stack).</li>
             </ul>
           </div>
-
-
         </div>
 
         {/* Skills */}
