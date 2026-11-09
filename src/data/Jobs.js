@@ -21,11 +21,10 @@ const jobs = [
     website  : 'https://www.copamexcorrugados.com',
     location : 'San Nicolás de los Garza, NL, México',
     activities: [
-      {activity_id: 1, description: "Design and development of the company's website copamexcorrugados.com (managed until 2023)."},
-      {activity_id: 2, description: 'Design and development of web applications (Full Stack).'},
-      {activity_id: 3, description: 'Technical support of ERP Datasul.'},
-      {activity_id: 4, description: 'Maintainance to computer equipment and printers.'},
-      {activity_id: 5, description: 'Support in network administation, servers and IP cameras.'},
+      {activity_id: 1, description: "Design and development of web applications (Full Stack) to optimize internal company processes."},
+      {activity_id: 2, description: 'Technical support of ERP Datasul.'},
+      {activity_id: 3, description: 'Maintainance to computer equipment and printers.'},
+      {activity_id: 4, description: 'Support in network administation, servers and IP cameras.'},
     ]
   },
   {
