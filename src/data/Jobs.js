@@ -19,7 +19,7 @@ const jobs = [
     position : 'Systems Analyst', 
     years    : '2017-2023',
     website  : 'https://www.copamexcorrugados.com',
-    location : 'San Nicolás de los Garza, NL, México',
+    location : 'San Nicolás de los Garza, NL, Mexico',
     activities: [
       {activity_id: 1, description: "Design and development of web applications (Full Stack) to optimize internal company processes."},
       {activity_id: 2, description: 'Technical support of ERP Datasul.'},
@@ -33,7 +33,7 @@ const jobs = [
     position : 'Web Developer',
     years    : '2024-2025',
     website  : 'https://plexonet.com/',
-    location : 'Monterrey, NL, México',
+    location : 'Monterrey, NL, Mexico',
     activities: [
       {activity_id: 1, description: 'Maintenance to a laboratory software named MedicaTI.'},
       {activity_id: 2, description: 'Development of new modules, reports and features (Full Stack).'},
