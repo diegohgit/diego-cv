@@ -5,23 +5,21 @@ import CopyToClipboard from "../components/CopyToClipboard";
 export default function Portfolio() {
   return (
     <>
-      <div className="mt-20 mb-20 text-dark">
+      <div className="mt-24 mb-20 text-dark
+                      md:text-xl text-lg">
 
         <a href='/class-scheduler-demo/'
             target='_blank'
-            className=" block md:mx-auto mx-2
-                        md:w-1/4"
+            className=" block mx-auto w-[320px]"
         >
-          <img className="my-10 mx-auto" 
-               src={`${import.meta.env.BASE_URL}img/scheduler_sky-blue.png`}
+          <img src={`${import.meta.env.BASE_URL}img/scheduler_sky-blue.png`}
                alt="ClassScheduler logo"/>
         </a>
 
         <div className="md:w-8/12 px-2 text-justify
-                        flex flex-col space-y-3
-                        mx-auto text-xl"
+                        flex flex-col space-y-2.5
+                        mx-auto mt-6"
         >
-
           <p>
             I have been taking English classes with my teacher Daniel since 2025. From the beginning 
             I noticed that Daniel used to write down all of his students' progress and class schedules 
@@ -42,19 +40,28 @@ export default function Portfolio() {
             To improve this process, I decided to create <b>Class Scheduler</b>. With this web app he can see his class schedule, but it also keeps track of every chapter 
             covered by the students making it easier to maintain a record of every student's progress.
           </p>
-          <br />
+        </div>
 
 
 
+        {/* Try the demo */}
+        <div className="w-fit mt-15 mx-auto
+                        px-2">
           <SectionTitle title="Try The Demo" />
 
           <div className="flex flex-col space-y-3
-                          text-left md:text-xl text-lg">
+                          text-left">
             <div className="md:flex block">
               <p>You can visit the demo version:</p>
               <a href="https://diegomysite.com/class-scheduler-demo/" target="_blank">
-                <span className="md:ml-2 ml-0 underline font-bold">
+                <span className="md:ml-2 ml-0 underline 
+                                  flex font-bold items-center
+                                  group gap-2">
                   Class Scheduler - Demo
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={5}
+                        className="size-5 stroke-gray-700 group-hover:stroke-yellow-500">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                  </svg>
                 </span>
               </a>
             </div>
@@ -79,13 +86,16 @@ export default function Portfolio() {
                   <CopyToClipboard text='Cl4ss$chedul3r' />
                 </div>
               </div>
-
             </div>
-            <br />
+          </div>
+        </div>
+
 
 
           {/* GitHub information */}
-            <div className="text-center *:mt-4">
+            <div className="text-center mt-15 px-2
+                            *:mt-4">
+          {/* GitHub icon */}
               <svg width="70" viewBox="14 14 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
                   className="mx-auto">
                 <path d="M56.7937 84.9688C44.4187 83.4688 35.7 74.5625 35.7 63.0313C35.7 58.3438 37.3875 53.2813
@@ -113,9 +123,6 @@ export default function Portfolio() {
                   <CopyToClipboard text='6diegoh@gmail.com' />
               </div>
             </div>
-
-          </div>
-        </div>
 
       </div>
     </>
