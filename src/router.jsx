@@ -4,6 +4,8 @@ import Home from "./views/Home";
 import Experience from "./views/Experience"
 import Portfolio from "./views/Portfolio"
 
+const basename = import.meta.env.VITE_BASE_PATH.replace(/\/$/, '')
+
 export const router = createBrowserRouter([
     {
         path: '/',
@@ -22,6 +24,5 @@ export const router = createBrowserRouter([
                 element: <Portfolio />
             },
         ]
-
     }
-])
+], {basename})
