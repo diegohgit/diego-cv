@@ -7,7 +7,7 @@ export default function Portfolio() {
     <>
       <div className="mt-20 mb-20 text-dark">
 
-        <a href='/class-scheduler-demo/login'
+        <a href='/class-scheduler-demo/'
             target='_blank'
             className=" block md:mx-auto mx-2
                         md:w-1/4"
@@ -52,7 +52,7 @@ export default function Portfolio() {
                           text-left md:text-xl text-lg">
             <div className="md:flex block">
               <p>You can visit the demo version:</p>
-              <a href="https://diegomysite.com/class-scheduler-demo/login" target="_blank">
+              <a href="https://diegomysite.com/class-scheduler-demo/" target="_blank">
                 <span className="md:ml-2 ml-0 underline font-bold">
                   Class Scheduler - Demo
                 </span>
