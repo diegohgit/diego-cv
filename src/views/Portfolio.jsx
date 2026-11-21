@@ -13,7 +13,7 @@ export default function Portfolio() {
                         md:w-1/4"
         >
           <img className="my-10 mx-auto" 
-               src="../img/scheduler_sky-blue.png"
+               src={`${import.meta.env.BASE_URL}img/scheduler_sky-blue.png`}
                alt="ClassScheduler logo"/>
         </a>
 
