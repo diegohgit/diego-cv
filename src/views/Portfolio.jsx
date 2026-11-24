@@ -27,11 +27,8 @@ export default function Portfolio() {
           </p>
           <p>
             Sometimes it was difficult to see if a student had already covered a specific chapter so
-            he had to search through every page of his notebook. Rescheduling classes was also complicated
+            he had to search through every page of his <b>3 notebooks</b>. Rescheduling classes was also complicated
             because sometimes he couldn't undertstand the schedule he had written down.
-          </p>
-          <p>
-            As time went by, he needed to buy another notebook because the last one was completely full.
           </p>
           <p>
             To improve this process, I decided to create <b>Class Scheduler</b>. With this web app he can see his class schedule, but it also keeps track of every chapter 
