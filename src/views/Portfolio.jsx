@@ -12,7 +12,7 @@ export default function Portfolio() {
 
         <a href='/class-scheduler-demo/'
             target='_blank'
-            className=" block mx-auto w-[320px]"
+            className=" block mx-auto w-[320px] h-[190px]"
         >
           <ImageLoader  src={`${import.meta.env.BASE_URL}img/scheduler_sky-blue.png`}
                         alt="ClassScheduler logo"/>
