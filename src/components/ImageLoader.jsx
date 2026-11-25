@@ -26,9 +26,7 @@ export default function ImageLoader({src, alt}) {
         src={src}
         alt={alt}
         onLoad={() => setLoaded(true)}
-        className={`${loaded ? "opacity-100" : "opacity-0"}
-                    transition-opacity duration-300`
-                  }
+        className={`${loaded ? "opacity-100" : "opacity-0"}`}
       />
     </div>
   );
