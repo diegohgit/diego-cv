@@ -1,5 +1,7 @@
 import SectionTitle from "../components/SectionTitle";
 import CopyToClipboard from "../components/CopyToClipboard";
+import ImageLoader from "../components/ImageLoader";
+
 
 
 export default function Portfolio() {
@@ -12,8 +14,8 @@ export default function Portfolio() {
             target='_blank'
             className=" block mx-auto w-[320px]"
         >
-          <img src={`${import.meta.env.BASE_URL}img/scheduler_sky-blue.png`}
-               alt="ClassScheduler logo"/>
+          <ImageLoader  src={`${import.meta.env.BASE_URL}img/scheduler_sky-blue.png`}
+                        alt="ClassScheduler logo"/>
         </a>
 
         <div className="md:w-8/12 px-2 text-justify

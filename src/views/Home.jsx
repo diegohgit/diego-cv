@@ -1,6 +1,6 @@
 import SectionTitle from "../components/SectionTitle"
 import CopyToClipboard from "../components/CopyToClipboard";
-
+import ImageLoader from "../components/ImageLoader";
 
 
 export default function Home() {
@@ -12,9 +12,10 @@ export default function Home() {
                       justify-center">
         <div className="md:flex mt-14 mx-auto
                         items-center">
-          <img className="mx-auto w-50"
-                src={`${import.meta.env.BASE_URL}img/circulo_cv.png`}
-                alt="Profile"/>
+          <div className="flex items-center justify-center w-50">
+            <ImageLoader  src={`${import.meta.env.BASE_URL}img/circulo_cv.png`}
+                          alt="Diego Hernández"/>
+          </div>
 
           <div className="text-center text-dark *:mt-2">
             <h1 className="font-mono text-5xl">
