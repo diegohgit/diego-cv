@@ -36,6 +36,13 @@ export default function Portfolio() {
             To improve this process, I decided to create <b>Class Scheduler</b>. With this web app he can see his class schedule, but it also keeps track of every chapter 
             covered by the students making it easier to maintain a record of every student's progress.
           </p>
+          <div className="md:flex text-left">
+            <div className="min-w-[315px] font-bold
+                            mr-2">
+              Technologies used in this project:
+            </div>
+            MySQL, Laravel, React, Tailwind and more...
+          </div>
         </div>
 
 
