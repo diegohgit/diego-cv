@@ -39,10 +39,11 @@ export default function Experience() {
             <li>PHP</li>
             <li>Laravel</li>
             <li>CodeIgniter</li>
-            <li>Git</li>
             <li>JavaScript</li>
+            <li>TypeScript</li>
             <li>React</li>
             <li>JQuery</li>
+            <li>Git</li>
             <li>CSS 3</li>
             <li>Tailwind CSS</li>
           </ul>
